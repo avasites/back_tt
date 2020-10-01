@@ -1,0 +1,14 @@
+[package]
+name = "timetable"
+version = "0.1.0"
+authors = ["Zheev <kz.zhebrikov@yandex.ru>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+actix-web = "3"
+actix-cors = "0.4.0"
+serde = { version = "1.0.116", features = ["derive"] }
+diesel = { version = "1.4.4", features = ["postgres"] }
+dotenv = "0.15.0"
